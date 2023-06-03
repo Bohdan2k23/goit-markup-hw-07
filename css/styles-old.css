@@ -27,12 +27,6 @@ img {
   --first-color: #ffffff;
   --second-color: #434455;
 }
-.container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px 0 15px;
-}
 /* =========HEADER========== */
 .page-header-container {
   display: flex;
@@ -112,12 +106,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-one {
   color: #2e2f42;
-}
-.logo {
-  margin-right: 76px;
 }
 
 .cnt-inf {
