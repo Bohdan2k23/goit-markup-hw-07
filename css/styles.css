@@ -148,6 +148,7 @@ img {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    z-index: 1000;
   }
   .mobile-menu-container {
     position: relative;
@@ -373,6 +374,19 @@ img {
     position: absolute;
     bottom: -1px;
     width: 48px;
+    height: 4px;
+    left: 0px;
+    background: #404bbf;
+    border-radius: 2px;
+  }
+  .menu-link.current-portfolio {
+    color: #404bbf;
+  }
+  .menu-link.current-portfolio::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    width: 66px;
     height: 4px;
     left: 0px;
     background: #404bbf;
